@@ -34,8 +34,8 @@ body{
 }
 
 .your_results .circle{
-    width: 55%;
-    height: 55%;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     padding: 2.8rem;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) 100%);
@@ -49,7 +49,7 @@ body{
 
 .your_results h1{
     color: white;
-    font-size: 4rem;
+    font-size: 5rem;
     display: inline-block;
 }
 
@@ -166,6 +166,10 @@ body{
     background-color: hsl(224, 30%, 27%, .8);
 }
 
+.btn:focus{
+    background-color: green;
+}
+
 span{
     color: hsl(224, 30%, 27%);
     font-weight: 700;
@@ -176,7 +180,7 @@ span{
     font-weight: 700;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 620px) {
 
     .main_content{
         display: flex;
